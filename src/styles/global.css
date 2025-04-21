@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+/* Adjusted global styles to match Home page background */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: rgba(0, 123, 255, 0.8);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(0, 123, 255, 1);
+  transform: scale(1.1);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    transition: background-color var(--transition-duration), transform var(--transition-duration);
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--accent-color);
+    transform: scale(1.05);
+  }
+  
+  .btn-secondary {
+    background-color: #95a5a6;
+    border: none;
+    transition: background-color var(--transition-duration), transform var(--transition-duration);
+  }
+  
+  .btn-secondary:hover {
+    background-color: #7f8c8d;
+    transform: scale(1.05);
+  }
